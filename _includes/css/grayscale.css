@@ -25,8 +25,8 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: Roboto,sans-serif;
+    font-weight: 100;
     letter-spacing: 1px;
 }
 
@@ -174,13 +174,12 @@ a:focus {
     }
 }
 
-.btn-circle {
+.btn-border {
     width: 70px;
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #fff;
-    border-radius: 35px;
+    border-radius: 5px;
     font-size: 40px;
     color: #fff;
     background: 0 0;
@@ -189,21 +188,21 @@ a:focus {
     transition: background .3s ease-in-out;
 }
 
-.btn-circle:hover,
-.btn-circle:focus {
+.btn-border:hover,
+.btn-border:focus {
     outline: 0;
     color: #fff;
     background: rgba(255,255,255,.1);
 }
 
-.btn-circle i.animated {
+.btn-border i.animated {
     -webkit-transition-property: -webkit-transform;
     -webkit-transition-duration: 1s;
     -moz-transition-property: -moz-transform;
     -moz-transition-duration: 1s;
 }
 
-.btn-circle:hover i.animated {
+.btn-border:hover i.animated {
     -webkit-animation-name: pulse;
     -moz-animation-name: pulse;
     -webkit-animation-duration: 1.5s;
@@ -214,7 +213,7 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {    
+@-webkit-keyframes pulse {
     0 {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -231,7 +230,7 @@ a:focus {
     }
 }
 
-@-moz-keyframes pulse {    
+@-moz-keyframes pulse {
     0 {
         -moz-transform: scale(1);
         transform: scale(1);
