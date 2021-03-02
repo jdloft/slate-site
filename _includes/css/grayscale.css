@@ -162,6 +162,12 @@ a:focus {
     font-size: 18px;
 }
 
+.intro-page-scroll {
+    display: table-row;
+    vertical-align: bottom;
+    height: 0;
+}
+
 @media(min-width:767px) {
     .intro {
         height: 100%;
