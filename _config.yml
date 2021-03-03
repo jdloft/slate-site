@@ -7,7 +7,10 @@ description: "A new Cardano stake pool"
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#000000'
-  links: '#219ab3'
+  links: '#e22f70'
+  links-hover: '#aa2354'
+
+# #e22f70 #ff2a2a
 
 # Footer settings
 footer: SLATE Operators
