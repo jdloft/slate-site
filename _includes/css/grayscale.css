@@ -158,6 +158,13 @@ a:focus {
     font-size: 60px;
 }
 
+.brand-heading, .navbar-brand {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 .intro .intro-body .intro-text {
     font-size: 18px;
 }
