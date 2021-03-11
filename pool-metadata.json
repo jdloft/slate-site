@@ -2,5 +2,6 @@
     "name": "SLATE pool",
     "description": "A new Cardano stake pool",
     "ticker": "SLATE",
-    "homepage": "https://slatepool.io"
+    "homepage": "https://slatepool.io",
+    "adapools_verify": "cc5904261c520e7a5825644fe07d8b1c"
 }
