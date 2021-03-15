@@ -2,11 +2,7 @@
 <html>
     {% include head.html %}
     <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-        {% include nav.html %}
-        {% include header.html %}
-        <main>
-            {{ content | smartify }}
-        </main>
+        {{ content | smartify }}
         {% include footer.html %}
         {% include js.html %}
     </body>
