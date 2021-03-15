@@ -3,6 +3,16 @@ title: SLATE
 url: https://slatepool.io
 description: "A new Cardano stake pool"
 
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Gems
+plugins:
+  - jekyll-gist
+  - jekyll-seo-tag
+  - jekyll-target-blank
+
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#000000'
@@ -13,6 +23,17 @@ color:
 
 # Footer settings
 footer: SLATE Operators
+
+exclude:
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+
+sass:
+  sass_dir: _sass
+  style: :compressed
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 # social:
@@ -26,7 +47,3 @@ footer: SLATE Operators
 #     url: http://bitbucket.org/jekyll
 #   - title: github
 #     url: https://github.com/IronSummitMedia/startbootstrap
-
-# Build settings
-markdown: kramdown
-permalink: pretty
