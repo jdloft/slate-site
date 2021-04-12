@@ -5,3 +5,12 @@
 
 @import "variables";
 @import "slate";
+
+img {
+  max-width: 80%;
+  display: block;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: auto;
+  max-height: 50vh;
+}
