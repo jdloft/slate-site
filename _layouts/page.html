@@ -2,11 +2,13 @@
 layout: default
 ---
 
-<div class="content-container">
+<div class="center-content">
   <main>
     <article class="page">
       <h1 class="page-title">{{ page.title | smartify }}</h1>
-      {{ content | smartify }}
+      <div class="content">
+        {{ content | smartify }}
+      </div>
     </article>
   </main>
 </div>

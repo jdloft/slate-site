@@ -4,6 +4,8 @@ body {
     font-family: 'Roboto',Helvetica,Arial,sans-serif;
     color: #fff;
     background-color: $color-primary-dark;
+    font-size: 20px;
+    webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
 html {
@@ -17,7 +19,6 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 35px;
     text-transform: uppercase;
     font-family: Roboto,sans-serif;
     font-weight: 100;
@@ -50,6 +51,10 @@ a:focus {
 
 .light {
     font-weight: 400;
+}
+
+.navbar {
+    font-size: 14px;
 }
 
 .navbar-custom {
@@ -168,7 +173,7 @@ a:focus {
     height: 0;
 }
 
-.content-container {
+.center-content {
     max-width: 90rem;
     margin-left: auto;
     margin-right: auto;
@@ -367,6 +372,20 @@ img::-moz-selection {
     background: 0 0;
 }
 
-body {
-    webkit-tap-highlight-color: rgba(255,255,255,.2);
+.page-title {
+    margin-bottom: 35px;
+}
+
+.content {
+    h1, h2 {
+        margin-top: 35px;
+    }
+
+    h3 {
+        margin-top: 30px;
+    }
+
+    h4, h5, h6 {
+        margin-top: 20px;
+    }
 }
