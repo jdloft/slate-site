@@ -1,9 +1,11 @@
 ---
-layout: page  
+layout: post
+title: How to Create Your First Cardano Wallet
 permalink: /docs/how-to-create-your-first-cardano-wallet
+series:
+    name: Cardano Foundational Concepts
+    description: Fundamental Cardano concepts that everyone should know.
 ---
-
-# How to Create Your First Cardano Wallet
 
 So you’ve just decided to get into this hot new crypto craze, but what’s the best way to get started? And what are the safest things you can do to make sure you don’t put your money at risk?
 
@@ -97,7 +99,7 @@ Note: You will NEVER use your secret phrase to send or receive money! NEVER give
 In order to receive money you will give a public hash of your key to the person you would like to receive money from:
 ![Tutorial Image](/docs/001-how-to-download-wallet/img/image21.png)
 
-You can get a new generated hash from this page, use the copy button to copy the phrase, or scan the QR Code to obtain the phrase. Other users can enter this phrase on their wallet to send you money. 
+You can get a new generated hash from this page, use the copy button to copy the phrase, or scan the QR Code to obtain the phrase. Other users can enter this phrase on their wallet to send you money.
 
 The last two tabs are for catalyst voting, and for delegating your wallet to a stake pool. We will have a separate article that goes into all the details about how to delegate and important points to consider when delegating to a pool.
 ![Tutorial Image](/docs/001-how-to-download-wallet/img/image27.png)
