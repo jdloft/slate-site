@@ -5,7 +5,7 @@ description: "A new Cardano stake pool"
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: none
 
 # Gems
 plugins:
