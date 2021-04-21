@@ -23,6 +23,7 @@ h6 {
     font-family: Roboto,sans-serif;
     font-weight: 100;
     letter-spacing: 1px;
+    padding-top: 55px;
 }
 
 p {
@@ -174,12 +175,10 @@ a:focus {
 }
 
 .center-content {
-    max-width: 90rem;
+    max-width: 745px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 100px;
-    padding-left: 2.4em;
-    padding-right: 2.4em;
+    padding-top: 75px;
 }
 
 @media(min-width:767px) {
@@ -372,11 +371,12 @@ img::-moz-selection {
     background: 0 0;
 }
 
-.page-title {
+.page-title, .post-title {
     margin-bottom: 35px;
+    padding-top: 0;
 }
 
-.content {
+.page-content {
     h1, h2 {
         margin-top: 35px;
     }

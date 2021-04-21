@@ -22,6 +22,10 @@ $(function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
+
+    // TOC
+    var toc = $("#toc").tocify({ context: ".post-content", selectors: "h2", extendPage: false, highlightDefault: false });
+    console.log(toc.options);
 });
 
 // Closes the Responsive Menu on Menu Item Click

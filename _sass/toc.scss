@@ -1,0 +1,29 @@
+#toc {
+    top: 85px;
+    font-size: 14px;
+    width: 170px;
+}
+
+.toc-navbar li a:hover,
+.toc-navbar li a:focus,
+.toc-navbar li a.active {
+    outline: 0;
+    background-color: rgba(0,0,0,0);
+}
+
+.toc ul li a {
+    color: #99a1b3;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    opacity: 1;
+    overflow-wrap: break-word;
+}
+
+.toc ul li:hover a {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.toc ul li.active a {
+    color: rgba(255, 255, 255, 0.5);
+}

@@ -29,6 +29,11 @@ layout: default
     <!-- /.container -->
 </nav>
 
+<!-- TOC -->
+<nav id="toc" class="toc toc-navbar">
+</nav>
+
+
 <div class="center-content">
   <main>
     <article class="post">
@@ -53,7 +58,9 @@ layout: default
       </div>
 
       <br>
-      {{ content | smartify }}
+      <div class="post-content">
+        {{ content | smartify }}
+      </div>
 
       {% assign count = '0' %}
       {% assign idx = '0' %}
