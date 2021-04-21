@@ -24,7 +24,15 @@ $(function() {
     });
 
     // TOC
-    var toc = $("#toc").tocify({ context: ".post-content", selectors: "h2", extendPage: false, highlightDefault: false });
+    var toc = $("#toc").tocify({
+        context: ".post-content",
+        selectors: "h2",
+        extendPage: false,
+        history: false,
+        // scrollTo: 55,
+        // highlightOffset: 5,
+        highlightDefault: false
+    });
     console.log(toc.options);
 });
 
