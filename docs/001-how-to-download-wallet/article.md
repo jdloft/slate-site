@@ -79,7 +79,7 @@ Write down your secret phrase, and then Yoroi will confirm you have written it d
 Congrats now you have just created your first Cardano wallet!
 ![Tutorial Image](/docs/001-how-to-download-wallet/img/image18.png)
 
-## A quick tour of Yoroi
+## A Quick Tour of Yoroi
 Whenever you want to launch your Yoroi wallet, click the icon in your list of Chrome extensions.
 When you first load up Yoroi you will see your main dashboard as below:
 ![Tutorial Image](/docs/001-how-to-download-wallet/img/image7.png)
