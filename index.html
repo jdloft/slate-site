@@ -3,24 +3,24 @@ layout: default
 ---
 
 <!-- Navigation -->
-<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-expand-sm navbar-custom navbar-dark fixed-top" role="navigation">
     <div class="container">
+        <a class="navbar-brand page-scroll" href="#page-top">{{ site.title }}</a>
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-main-collapse">
                 <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top">{{ site.title }}</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-            <ul class="nav navbar-nav">
+        <div class="collapse navbar-collapse navbar-main-collapse">
+            <ul class="nav navbar-nav ml-auto">
                 <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                <li class="hidden">
-                    <a href="#page-top"></a>
+                <li class="nav-item hidden">
+                    <a class="nav-link" href="#page-top"></a>
                 </li>
-                <li>
-                    <a class="page-scroll" href="/docs">Docs</a>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="/docs">Docs</a>
                 </li>
                 <!-- <li>
                     <a class="page-scroll" href="#mission">Mission</a>
@@ -51,9 +51,11 @@ layout: default
     <div class="intro-page-scroll">
         <div class="container">
             <div class="row">
-                <a href="#docs" class="btn btn-border page-scroll">
-                    <i class="fa fa-angle-down animated"></i>
-                </a>
+                <div class="col">
+                    <a href="#docs" class="btn btn-border page-scroll">
+                        <i class="fa fa-angle-down animated"></i>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -64,7 +66,7 @@ layout: default
     <section id="docs" class="content-section text-center">
         <div class="docs-section">
             <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
+                <div class="col-lg-8 offset-lg-2">
                     <h2>Documentation</h2>
                     <h3>Cardano Foundational Concepts</h3>
                     {% assign series-name = "Cardano Foundational Concepts" %}
@@ -78,7 +80,7 @@ layout: default
     <!-- Mission Section -->
     <section id="mission" class="container content-section">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
+            <div class="col-lg-8 offset-lg-2">
                 <h2>Mission</h2>
                 <p>SLATE is a new Cardano stake pool aimed at increasing Cardano awareness and helping others understand Cardano technology.</p>
                 <p>The Cardano community is a wide and diverse array of developers and tech enthusiasts who want to change the way the world
@@ -99,7 +101,7 @@ layout: default
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">
         <div class="row">
-            <div class="col-lg-10 col-lg-offset-1">
+            <div class="col-lg-10 offset-lg-1">
                 <h2>Contact</h2>
                 <p>We're always willing to help. Please, feel free to reach out to us if you have any questions.</p>
                 <p>Social media coming soon.</p>

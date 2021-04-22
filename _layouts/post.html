@@ -3,24 +3,27 @@ layout: default
 ---
 
 <!-- Navigation -->
-<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-expand-sm navbar-custom navbar-dark fixed-top" role="navigation">
     <div class="container">
+        <a class="navbar-brand page-scroll" href="#page-top">{{ site.title }}</a>
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-main-collapse">
                 <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand" href="/">{{ site.title }}</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-            <ul class="nav navbar-nav">
+        <div class="collapse navbar-collapse navbar-main-collapse">
+            <ul class="nav navbar-nav ml-auto">
                 <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                <li>
-                    <a href="/">Home</a>
+                <li class="nav-item hidden">
+                    <a class="nav-link" href="#page-top"></a>
                 </li>
-                <li>
-                    <a href="/docs">Docs</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/docs">Docs</a>
                 </li>
             </ul>
         </div>

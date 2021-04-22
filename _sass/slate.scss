@@ -88,7 +88,8 @@ a:focus {
     outline: 0;
 }
 
-.navbar-custom a {
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .nav-link:hover {
     color: #fff;
 }
 
@@ -122,7 +123,7 @@ a:focus {
     }
 
     .top-nav-collapse {
-        padding: 0;
+        padding: 0 !important;
         background-color: $color-primary-dark;
     }
 
